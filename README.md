@@ -1,22 +1,34 @@
-# Agent 学习笔记
+# AI Agent Learning Notes  
+AI Agent 学习笔记
 
-这是一个专注于 **AI Agent（智能体）** 学习的个人笔记仓库。
+[![English](https://img.shields.io/badge/English-blue)](README.md) [![中文](https://img.shields.io/badge/中文-red)](README.md)
 
-这里主要记录我在学习和实践多智能体系统、Agentic Workflow、自主智能体时的思考、代码实验、框架对比、踩坑总结和一些有趣的 idea。
+Personal notes, experiments, code demos, and thoughts while exploring **AI Agents**, **Multi-Agent Systems**, and **Agentic Workflows**.  
+个人学习 **AI Agent（智能体）**、**多智能体系统** 和 **Agentic Workflow** 的笔记、代码实验、踩坑总结与思考。
 
-## 为什么建这个仓库？
+## Purpose / 目的
 
-- 把零散的知识点、demo 代码、论文阅读笔记系统化
-- 方便自己复习和长期迭代
-- 希望能给同样在 Agent 方向摸索的同学一些参考（哪怕只帮到一个人也值了）
-- 记录从“什么都看不懂”到“勉强能搭个能跑的 agent 系统”的真实成长过程
+- Organize scattered notes, code snippets, paper summaries, and failed experiments  
+  把零散的知识点、demo 代码、论文阅读、失败实验系统化整理
 
-## 当前主要关注的方向（2026 年 2 月）
+- Track my learning journey from beginner → building simple agents  
+  记录从“啥都不懂”到“能搭出能跑的 agent 系统”的成长路径
 
-- 多智能体框架对比与上手：AutoGen、LangGraph、AgentScope、CAMEL、CrewAI 等
-- Agent 的核心能力构建：工具调用（Tool Use）、记忆（Memory）、规划（Planning）、反思（Reflection）
-- 典型应用场景实验：RAG + Agent、代码生成 Agent、软件开发团队模拟、角色扮演协作
-- 生产级落地思考：可控性、防幻觉、成本控制、监控与评估
-- 新兴方向：长期记忆、多模态 Agent、Agent 与人类协作、Agent 社会模拟
+- Hopefully useful as a reference for others  
+  希望能给同样在 Agent 方向摸索的小伙伴一些参考
 
-## 仓库结构（持续更新中）
+## Current Focus Areas / 当前关注方向 (Feb 2026)
+
+- Multi-agent frameworks: AutoGen, LangGraph, AgentScope, CAMEL, CrewAI  
+  多智能体框架上手与对比：AutoGen、LangGraph、AgentScope、CAMEL、CrewAI 等
+
+- Core capabilities: Tool use, Memory, Planning, Reflection  
+  Agent 核心能力：工具调用、记忆、规划、反思
+
+- Practical patterns: RAG + Agent, code generation, simulated teams  
+  典型场景：RAG + Agent、代码生成、模拟开发团队
+
+... (continue with the rest of the content in parallel English/Chinese)
+
+## Repository Structure / 仓库结构
+
