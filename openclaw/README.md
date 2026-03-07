@@ -1,15 +1,29 @@
+
 <p align="center">
-  <img width="600"  alt="image" src="https://github.com/user-attachments/assets/2b366fd7-e5d6-4522-8681-a10b83b911da" />
+  <img src="https://github.com/user-attachments/assets/2b366fd7-e5d6-4522-8681-a10b83b911da" alt="OpenClaw Logo" width="600">
 </p>
 
-# 🦞 OpenClaw: 自主式 AI Agent 巅峰之作
+<h1 align="center">🦞 OpenClaw: 自主式 AI Agent 巅峰之作</h1>
 
-2026 年初，一个名为 **OpenClaw** 的开源项目在 GitHub 上创造了历史：**两个月内获得超过 247,000 星标**，超越 Linux 成为全球增长最快的开源项目。
+<p align="center">
+  <strong>超越 Linux，全球增长最快的开源自主 AI Agent 框架</strong>
+</p>
 
-> **核心本质**：ChatGPT 是顾问，OpenClaw 是执行者。它是一个真正的**自主式 AI Agent**。
+<p align="center">
+  <img src="https://img.shields.io/github/stars/user/openclaw?style=for-the-badge&logo=github&color=darkverify" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/license/user/openclaw?style=for-the-badge&color=darkverify" alt="License">
+  <img src="https://img.shields.io/badge/status-Creator_of_History-darkverify?style=for-the-badge" alt="Status">
+</p>
 
 ---
 
+### 项目背景
+
+2026 年初，**OpenClaw** 在 GitHub 上创造了历史：**两个月内获得超过 247,000 星标**，正式超越 Linux 成为全球增长最快的开源项目。
+
+> **核心定义**：ChatGPT 是顾问，OpenClaw 是执行者。它是一个真正的**自主式 AI Agent**。
+
+---
 ## 📜 项目传奇背景 (Project History)
 
 这个时间线本身就说明了一个趋势：**2026 年是 AI Agent 元年**。
