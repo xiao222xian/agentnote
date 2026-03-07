@@ -1,8 +1,7 @@
 <p align="center">
-  <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/2b366fd7-e5d6-4522-8681-a10b83b911da" />
-
- 
+  <img width="600"  alt="image" src="https://github.com/user-attachments/assets/2b366fd7-e5d6-4522-8681-a10b83b911da" />
 </p>
+
 # 🦞 OpenClaw: 自主式 AI Agent 巅峰之作
 
 2026 年初，一个名为 **OpenClaw** 的开源项目在 GitHub 上创造了历史：**两个月内获得超过 247,000 星标**，超越 Linux 成为全球增长最快的开源项目。
