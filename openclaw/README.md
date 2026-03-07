@@ -133,7 +133,9 @@ openclaw gateway restart
 
 ### 1. 飞书接入 (推荐企业)
 
-参看文档：《立省 500！30 分钟把 OpenClaw 在飞书上配到可用》https://larkcommunity.feishu.cn/wiki/LDmXwEVhJitBa5kU0mjc16VKneb。
+参看文档：《立省 500！30 分钟把 OpenClaw 在飞书上配到可用》https://larkcommunity.feishu.cn/wiki/LDmXwEVhJitBa5kU0mjc16VKneb。  
+
+<img width="663" height="836" alt="image" src="https://github.com/user-attachments/assets/7d24622a-6922-49eb-8c06-6e9f946416a3" />
 
 
 ### 2. Telegram 接入 (推荐个人)
