@@ -189,6 +189,122 @@ openclaw skill install weather
 
 **The best time to start is now.**
 
+
+<br/><br/>
+
+# Appendix
+
+## 🌟 What is CoPaw?
+
+**CoPaw** (Co Personal Agent Workstation) is far more than just a chatbot; it is a **Personal AI Workstation** hosted locally or on your private cloud.
+
+If traditional AI assistants are like a rented "office," CoPaw is your **hand-crafted "Digital Estate."** It deeply integrates model management, multi-channel access, skill extensions, and a long-term memory system, designed to provide a private, powerful, and autonomous AI partner.
+
+### 🎯 Core Scenarios
+
+* **Omni-platform Communication**: Summon your exclusive AI directly within Feishu, QQ, Discord, or Slack.
+* **Deep Personalization**: Enable the AI to remember your professional preferences, writing style, and daily habits over the long term.
+* **Automated Secretary**: Set up scheduled tasks for daily industry briefings or task reminders.
+* **Data Sovereignty**: Supports full localized deployment; sensitive data never passes through third-party platforms, ensuring absolute privacy.
+
+---
+
+## ⚖️ CoPaw vs. OpenClaw: Which to Choose?
+
+Both are excellent self-hosted Agent platforms, but they possess distinct "personalities":
+
+| Feature | **CoPaw (Personal Workstation)** | **OpenClaw (Execution Hub)** |
+| --- | --- | --- |
+| **Core Positioning** | Focused on "Companionship & Collaboration"; emphasizes the workstation experience | Focused on "Developers & Execution"; emphasizes the toolchain |
+| **Control Method** | Elegant **Web Dashboard (Port 8088)** | Powerful **CLI and Gateway** |
+| **Tech Stack** | Based on Python Ecosystem (AgentScope) | Node.js / Cross-language plugin system |
+| **Typical Features** | Scheduled heartbeats, summary generation, auto-loading Skills | Task execution chains, complex plugin extensions |
+| **Target Audience** | Users seeking daily ease-of-use, web control, and long-term memory | Geeks seeking automated workflows and developer-level control |
+
+> **Bottom Line**: If you want a "Digital Butler" with a web-based interface, choose **CoPaw**; if you want a "Swiss Army Knife" via the command line, choose **OpenClaw**.
+
+---
+
+## 🏗️ Core Architecture & Features
+
+1. **Multi-Channel Access**: One-click bridging for Feishu, QQ, Discord, etc., breaking down application silos.
+2. **Intelligent Brain**: Supports mainstream cloud models and local inference models based on `llama.cpp` or `MLX`.
+3. **Skill Extensions**: A plugin-like system supporting rapid loading of custom tools.
+4. **Scheduled Tasks (Cron Jobs)**: Built-in heartbeat checks and periodic summaries, giving the Agent a sense of time.
+5. **Flexible Deployment**: Supports local, Docker, Alibaba Cloud ECS, and other environments.
+
+---
+
+## 🚀 Quick Start Guide
+
+### Option A: Python Installation (Recommended)
+
+Suitable for users with an existing Python environment:
+
+```bash
+# 1. Install the core package
+pip install copaw
+
+# 2. Initialize configuration (using defaults)
+copaw init --defaults
+
+# 3. Launch the application
+copaw app
+
 ```
+
+Once started, access `http://127.0.0.1:8088/` in your browser to enter the Web Dashboard.
+
+### Option B: Docker Deployment
+
+Suitable for users seeking environment isolation or server deployment:
+
+```bash
+# Pull the image
+docker pull agentscope/copaw:latest
+
+# Run the container (Map port 8088 and mount data volume)
+docker run -d \
+  --name copaw \
+  -p 8088:8088 \
+  -v copaw-data:/app/working \
+  agentscope/copaw:latest
+
+```
+
+*Configurations, memory, and Skills will be persisted in the `copaw-data` volume.*
+
+### Option C: One-line Install Script
+
+The official documentation provides a one-line install script for a zero-friction experience. Please visit the [Official Quick Start Page](https://www.google.com/search?q=https://docs.agentscope.io/copaw) for the latest script commands.
+
+---
+
+## 🤖 Model Configuration
+
+### Cloud Models
+
+During the `copaw init` process, follow the prompts to select your provider (e.g., OpenAI, Anthropic, DashScope) and enter your **API Key**.
+
+### Local Models (Privacy First)
+
+CoPaw is extremely friendly to local models, supporting `llama.cpp` or `MLX` backends:
+
+* **No API Key Required**: Directly load GGUF format models.
+* **Local Download Example**:
+
+```bash
+# Example: Download a Qwen model via built-in command
+copaw download --model qwen2.5-7b-gguf
+copaw app
+
+```
+
+---
+
+## 🛠️ Advanced: Config & Extension
+
+* **Skills Path**: Custom skills can be placed in the `/app/working/skills` folder and will auto-load upon restart.
+* **Scheduled Tasks**: Edit task flows directly in the dashboard to set the Agent's "heartbeat" or wake-up frequency.
 
 ---
