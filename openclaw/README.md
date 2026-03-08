@@ -8,7 +8,9 @@
 <p align="center">
   <strong>超越 Linux，全球增长最快的开源自主 AI Agent 框架</strong>
 </p>
-
+<p align="center">
+  <a href="./README.en.md">English</a>
+</p>
 <p align="center">
   <img src="https://img.shields.io/github/stars/user/openclaw?style=for-the-badge&logo=github&color=darkverify" alt="GitHub Stars">
   <img src="https://img.shields.io/github/license/user/openclaw?style=for-the-badge&color=darkverify" alt="License">
