@@ -45,7 +45,7 @@
 ## 🕒 学习时长
 
 * **建议周期：** 2 ~ 3 周
-* **进度反馈：** 如遇时间冲突（校招、大厂项目、面试等），请务必及时在 **1v1 私享群** 内反馈，以便调整进度。
+* **问题反馈：** 如遇学习困难，可以 私聊**生生** 反馈，可以帮忙适当调整进度。
 
 ---
 
@@ -216,7 +216,7 @@
 ### 🔗 资源链接
 
 * **模型:** [ModelScope 萌子 T5](https://modelscope.cn/models/langboat/mengzi-t5-base)
-* **数据集:** [夸克网盘](https://pan.quark.cn/s/6d4a98cd65f2) (码: `bzne`)
+* **数据集:** [夸克网盘]([https://pan.quark.cn/s/6d4a98cd65f2](https://pan.quark.cn/s/0fa31ec08c78?pwd=2fyh)) (码: `2fyh`)
 
 ---
 
