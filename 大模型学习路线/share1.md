@@ -216,7 +216,7 @@
 ### 🔗 资源链接
 
 * **模型:** [ModelScope 萌子 T5](https://modelscope.cn/models/langboat/mengzi-t5-base)
-* **数据集:** [夸克网盘]([https://pan.quark.cn/s/6d4a98cd65f2](https://pan.quark.cn/s/0fa31ec08c78?pwd=2fyh)) (码: `2fyh`)
+* **数据集:** [夸克网盘]((https://pan.quark.cn/s/0fa31ec08c78?pwd=2fyh)) (码: `2fyh`)
 
 ---
 
