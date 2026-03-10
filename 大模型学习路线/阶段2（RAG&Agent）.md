@@ -516,9 +516,9 @@ https://github.com/datawhalechina/hello-agents
 - Titanic cleaned.csv（约 66 KB）
 #### 数据预览
 
-![Excel 预览图](./assets/excel-preview.png)
 
-[下载完整 Excel 文件](./docs/data.xlsx)
+
+[下载完整 Excel 文件](./titanic_cleaned.csv)
 ### 模型要求
 
 - 模型不限
